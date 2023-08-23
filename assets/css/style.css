@@ -1,0 +1,58 @@
+	/*-- font start----
+	font-family: 'Work Sans', sans-serif;
+	*/
+	@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');	
+	
+	/*-- font End----*/
+	
+	/* comon code start*/
+html{ 
+	font-family: 'Work Sans', sans-serif;
+}
+.container-fluid{
+	width: 100%
+	height: 100%;
+}
+.container{
+	width:80%;
+	height: 100%;
+	margin: 0px auto;
+}
+.d-flex{
+	display: flex;
+}
+a{
+	text-decoration: none;
+}
+a, span{
+	display: inline-block;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul{
+	margin: 0px;
+	padding: 0px;
+}
+ul li{
+	list-style: none;
+}
+  /* comon code End*/
+  /* nav start */
+.navbar{
+	  align-items: center;
+	  justify-content: space-between;
+  }
+.navbar .navbar-brand{
+	color: rgba(0, 0, 0, 0.9);
+	font-size: 20px;
+	font-weight: 600;
+}
+.navbar .navbar-brand span{
+	color: #6c55f9;
+}
+.navbar-nav a{
+	color: rgba(0, 0, 0, 0.9);
+	font-size: 20px;
+	font-weight: 400;
+	padding: 10px 20px;
+}
+  
+  /* nav End */
